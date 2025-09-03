@@ -15,7 +15,7 @@ function checkBalance() {
 
 function deposit ()  {
     let amount = getAmount();
-    if(amount > 0) {1
+    if(amount > 0) {
         balance += amount;
       updateScreen("Deposited $" + amount + " | New balance: $" + balance);
     } else {
